@@ -1,0 +1,9 @@
+#container{
+    display: grid;
+    border: 1px solid black;
+}
+
+.pixel{
+    width: auto;
+    height: auto;
+}
