@@ -1,9 +1,35 @@
 #container{
-    display: grid;
     border: 1px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pixel{
-    width: auto;
-    height: auto;
+    width: 1em;
+    height: 1em;
 }
+
+.etched {
+    background-color: gray;
+}
+
+#title {
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    display: flex;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
